@@ -1,0 +1,12 @@
+2020/03/15 13:27:25 [alert] 27#27: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
+2020/03/15 13:27:25 [emerg] 27#27: unexpected "{" in /NginxLuaDemo/web/conf/conf.d/servers/http.conf:20
+2020/03/15 13:28:07 [alert] 30#30: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
+2020/03/15 13:28:25 [error] 32#32: *2 open() "/NginxLuaDemo/web/html/01-1" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /01-1 HTTP/1.1", host: "127.0.0.1"
+2020/03/15 13:29:41 [error] 32#32: *3 open() "/NginxLuaDemo/web/html/01-1" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /01-1 HTTP/1.1", host: "127.0.0.1"
+2020/03/15 13:29:52 [alert] 40#40: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
+2020/03/15 13:29:52 [notice] 40#40: signal process started
+2020/03/15 13:29:52 [alert] 31#31: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
+2020/03/15 13:29:55 [error] 41#41: *4 failed to load external Lua file "/NginxLuaDemo/web/lua/0.lua": cannot open /NginxLuaDemo/web/lua/0.lua: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /01-1 HTTP/1.1", host: "127.0.0.1"
+2020/03/15 13:32:44 [alert] 45#45: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
+2020/03/15 13:32:44 [notice] 45#45: signal process started
+2020/03/15 13:32:44 [alert] 31#31: lua_code_cache is off; this will hurt performance in /NginxLuaDemo/web/conf/nginx.conf:18
